@@ -7,9 +7,14 @@ package abstractClasses;
  */
 public class PersonTest
 {
+   /**
+    * 测试person类
+    * @param args
+    */
    public static void main(String[] args)
    {
       Person[] people = new Person[2];
+      String s1 = "sss";
 
       // fill the people array with Student and Employee objects
       people[0] = new Employee("Harry Hacker", 50000, 1989, 10, 1);
